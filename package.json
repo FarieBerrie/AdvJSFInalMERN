@@ -1,0 +1,39 @@
+{
+    "name": "gradebook_v2",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "babel-node ./bin/www",
+        "dev": "nodemon --exec babel-node ./bin/www",
+        "build": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.13.16",
+        "@babel/node": "^7.13.13",
+        "@babel/preset-env": "^7.13.15",
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.9",
+        "event-stream": "^3.3.4",
+        "express": "~4.16.0",
+        "express-react-views": "^0.11.0",
+        "express-session": "^1.15.6",
+        "express-validator": "^5.3.1",
+        "http-errors": "~1.6.2",
+        "mongoose": "^5.3.12",
+        "morgan": "~1.9.0",
+        "react": "^16.14.0",
+        "react-dom": "^16.13.1",
+        "react-json-to-table": "^0.1.7",
+        "react-router-dom": "^5.2.0",
+        "semantic-ui-css": "^2.4.1",
+        "semantic-ui-react": "^2.0.3"
+    },
+    "devDependencies": {
+        "css-loader": "^5.2.4",
+        "css-minimizer-webpack-plugin": "^3.0.0",
+        "nodemon": "^2.0.7",
+        "style-loader": "^2.0.0",
+        "webpack-cli": "^4.7.0"
+    }
+}
