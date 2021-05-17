@@ -10,6 +10,7 @@ var reactViews = require('express-react-views');
 
 // Set up mongoose connection
 var mongoose = require("mongoose")
+
 // FIXME
 const username = 'fbilly';
 // FIXME
